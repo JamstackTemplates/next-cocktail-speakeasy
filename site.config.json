@@ -1,0 +1,10 @@
+{
+  "name": "Acme Lounge",
+  "description": "A cocktail lounge behind an unmarked door on Jackson Square: signature cocktails and classics, zero-proof drinks, live music and late hours.",
+  "domain": "next-cocktail-speakeasy.jamstacks.net",
+  "timeZone": "America/Chicago",
+  "jamstacks": {
+    "siteId": "",
+    "cdnUrl": "https://cdn.jamstacks.net"
+  }
+}

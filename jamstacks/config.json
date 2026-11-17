@@ -1,0 +1,19 @@
+{
+  "name": "Cocktail speakeasy",
+  "description": "An art-deco speakeasy theme in black, gold and emerald for cocktail bars and lounges: a signature cocktail menu with each drink drawn in its own glass, a flavour map to help guests choose, zero-proof drinks, live music nights, a \"find the door\" guide, dress code, late hours, location and a Jamstacks contact component for private hire and events.",
+  "tech": "next",
+  "type": "cocktail",
+  "style": "speakeasy",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}
