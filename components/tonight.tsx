@@ -21,7 +21,7 @@ export function StatusLine({ fallback, className = '' }: { fallback: string; cla
 }
 
 /**
- * Tonight's music: "Tonight · Live jazz with the Acme Trio from 9pm", or "Playing now" while it's on.
+ * Tonight's music: "Tonight · Live jazz with the Brass Lamp Trio from 9pm", or "Playing now" while it's on.
  * Shows `fallback` (the week's music nights) before the browser knows the time, and nothing on a night
  * without music.
  */

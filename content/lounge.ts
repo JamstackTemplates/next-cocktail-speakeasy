@@ -29,7 +29,7 @@ export interface MusicNight {
    * (Saturday 22:00–01:00 ends at 1am Sunday). Must be no later than closing time.
    */
   ends: string;
-  /** Who's playing, written to follow "with", e.g. "the Acme Trio". Use fictitious names in samples. */
+  /** Who's playing, written to follow "with", e.g. "the Brass Lamp Trio". Use fictitious names in samples. */
   act: string;
   /** One or two lowercase words to follow "Live", e.g. "jazz" or "piano". */
   genre: string;
@@ -125,14 +125,14 @@ export interface Lounge {
 }
 
 export const lounge: Lounge = {
-  name: 'Acme Lounge',
-  monogram: 'AL',
+  name: 'The Gilded Key',
+  monogram: 'GK',
   tagline: 'Cocktails · live music · late',
   welcome: 'Behind the green door',
   introduction:
     'A small cocktail lounge behind an unmarked door off Jackson Square. Seated service, a short card of house cocktails and classics, zero-proof drinks made with the same care, and live music three nights a week.',
   story: [
-    'Acme Lounge began as a storeroom with a beautiful ceiling. We kept the plasterwork, hung brass lamps over twelve tables and a long walnut bar, and left the door without a sign.',
+    'The Gilded Key began as a storeroom with a beautiful ceiling. We kept the plasterwork, hung brass lamps over twelve tables and a long walnut bar, and left the door without a sign.',
     'Our bartenders build every drink to order, juice citrus by hand each afternoon and treat a zero-proof cocktail exactly like any other.',
   ],
   email: 'hello@example.com',
@@ -168,7 +168,7 @@ export const lounge: Lounge = {
   lastCallMinutes: 30,
   notice: '',
   music: [
-    { day: 'Thursday', starts: '20:30', ends: '23:30', act: 'the Acme Trio', genre: 'jazz' },
+    { day: 'Thursday', starts: '20:30', ends: '23:30', act: 'the Brass Lamp Trio', genre: 'jazz' },
     { day: 'Friday', starts: '21:00', ends: '00:00', act: 'the Night Owl Quartet', genre: 'swing' },
     { day: 'Saturday', starts: '22:00', ends: '01:00', act: 'Celeste Arden', genre: 'piano' },
   ],
@@ -217,7 +217,7 @@ export const lounge: Lounge = {
     },
     {
       question: 'What’s your age policy?',
-      answer: 'Acme Lounge is 21+ only, and everyone needs valid photo ID at the door, whatever your age. We can’t make exceptions.',
+      answer: 'The Gilded Key is 21+ only, and everyone needs valid photo ID at the door, whatever your age. We can’t make exceptions.',
     },
   ],
   links: [

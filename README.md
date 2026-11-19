@@ -1,4 +1,4 @@
-# Acme Lounge (Next.js)
+# The Gilded Key (Next.js)
 
 An art-deco speakeasy theme in black, gold and emerald for cocktail bars and lounges: a signature cocktail menu with each drink drawn in its own glass, a flavour map to help guests choose, zero-proof drinks, live music nights, a "find the door" guide, dress code, late hours, location and a [Jamstacks](https://jamstacks.net) contact component for private hire and events.
 
@@ -6,7 +6,7 @@ The site is laid out like an engraved invitation and a gilded cocktail card: a s
 
 It exports to plain static files, deploys to GitHub Pages (custom domain or `/repository/` path) and works with no backend.
 
-**Acme Lounge**, its story, drinks, music acts and contact details are fictitious placeholders. The sample address is a public landmark, Jackson Square in New Orleans, so the map has something real to show. Replace all of them with your own.
+**The Gilded Key**, its story, drinks, music acts and contact details are fictitious placeholders. The sample address is a public landmark, Jackson Square in New Orleans, so the map has something real to show. Replace all of them with your own.
 
 ## Pages
 
@@ -93,7 +93,7 @@ The glass drawing is made from `glass`, `color`, `layered` and `garnish`, so a n
 Your time zone is `timeZone` in [site.config.json](site.config.json), an IANA name such as `America/Chicago`. With it, the visitor's browser works out, using *your* clock and refreshing every minute:
 
 - the status line in the portal, Find the door and the menu: "Doors open at 5pm", "Open · last call 1:30am", "Last call in 20 minutes", "After last call · doors close at 2am" or "Closed tonight · doors open Tuesday at 5pm";
-- tonight's music, "Live jazz with the Acme Trio from 8:30pm", marked "Playing now" while it's on (1am on a Saturday night is still Saturday's set);
+- tonight's music, "Live jazz with the Brass Lamp Trio from 8:30pm", marked "Playing now" while it's on (1am on a Saturday night is still Saturday's set);
 - "Tonight" on the week's programme;
 - and "Times shown in Central Time" (or your zone) beside the hours.
 
@@ -140,7 +140,7 @@ The footer ends with "with ❤️ [jamstacks.net](https://jamstacks.net)". It's 
 
 ```json
 {
-  "name": "Acme Lounge",
+  "name": "The Gilded Key",
   "description": "A cocktail lounge behind an unmarked door on Jackson Square: signature cocktails and classics, zero-proof drinks, live music and late hours.",
   "domain": "next-cocktail-speakeasy.jamstacks.net",
   "timeZone": "America/Chicago",
@@ -252,7 +252,7 @@ jamstacks/              optional template publishing metadata and gallery captur
 
 ## Before publishing your website
 
-- Replace Acme Lounge, the monogram, story, address (and its `note`), directions, find-the-door steps, email, phone, drinks, prices, music, dress code, house rules, FAQs and social links with your own details.
+- Replace The Gilded Key, the monogram, story, address (and its `note`), directions, find-the-door steps, email, phone, drinks, prices, music, dress code, house rules, FAQs and social links with your own details.
 - Set your real opening hours (late nights as `closes: '02:00'`), `lastCallMinutes` and `timeZone` in `site.config.json`, and check the status line on the home page.
 - Replace the demo `domain` in `site.config.json` with your own (or set the correct Pages URL), and update the site title/description, icon and social preview image.
 - Run `npm run check` and a project-path build when using a repository URL.

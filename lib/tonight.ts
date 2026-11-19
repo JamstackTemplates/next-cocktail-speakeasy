@@ -217,7 +217,7 @@ export function musicTonight(day: Day, minutes: number, status: Status, music: M
   return { set, playing: now >= starts };
 }
 
-/** "Live jazz with the Acme Trio from 9pm", or "… until 11:30pm" while it's playing. */
+/** "Live jazz with the Brass Lamp Trio from 9pm", or "… until 11:30pm" while it's playing. */
 export function musicText(tonight: TonightMusic): string {
   const { set, playing } = tonight;
   return `Live ${set.genre} with ${set.act} ${playing ? `until ${formatTime(set.ends)}` : `from ${formatTime(set.starts)}`}`;

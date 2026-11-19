@@ -22,7 +22,7 @@ const week: OpeningHours[] = [
   { day: 'Sunday' },
 ];
 const music: MusicNight[] = [
-  { day: 'Thursday', starts: '21:00', ends: '23:30', act: 'the Acme Trio', genre: 'jazz' },
+  { day: 'Thursday', starts: '21:00', ends: '23:30', act: 'the Brass Lamp Trio', genre: 'jazz' },
   { day: 'Saturday', starts: '22:00', ends: '01:00', act: 'Celeste Arden', genre: 'piano' },
 ];
 const status = (day: (typeof DAYS)[number], time: string) => statusAt(day, at(time), week, 30);
@@ -155,12 +155,12 @@ test('a midnight close ends exactly at midnight', () => {
 test('tonight’s music: upcoming, playing, then gone', () => {
   const before = tonight('Thursday', '18:00');
   assert.ok(before && !before.playing);
-  assert.equal(musicText(before), 'Live jazz with the Acme Trio from 9pm');
+  assert.equal(musicText(before), 'Live jazz with the Brass Lamp Trio from 9pm');
   // Before the doors open, the evening's set is already "tonight".
   assert.equal(tonight('Thursday', '12:00')?.playing, false);
   const during = tonight('Thursday', '22:00');
   assert.ok(during?.playing);
-  assert.equal(musicText(during), 'Live jazz with the Acme Trio until 11:30pm');
+  assert.equal(musicText(during), 'Live jazz with the Brass Lamp Trio until 11:30pm');
   assert.equal(tonight('Thursday', '23:30'), null);
 });
 
